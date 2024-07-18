@@ -17,7 +17,7 @@ function Header() {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav ml-auto d-flex align-items-center">
-                                <li className="nav-item">
+                                <li className="nav-item ">
                                     <a className="nav-link custom-icon " href="#home">HOME</a>
                                 </li>
                                 <li className="nav-item">
@@ -33,7 +33,7 @@ function Header() {
                                     <a className="nav-link custom-icon" href="#quality">QUALITY</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link custom-icon" href="#contact">CONTACT US</a>
+                                    <a style={{background:"#005477", color:"white"}} className="nav-link custom-icon" href="#contact">CONTACT US</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link custom-icon" href="#search"><FaSearch /></a>

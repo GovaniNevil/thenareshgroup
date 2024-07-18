@@ -4,10 +4,11 @@ import image1 from "../image/image 1.png";
 import image2 from "../image/image 2.png";
 import image3 from "../image/image 3.png";
 import logo1 from "../image/logo1.jpeg";
+import logo2 from "../image/logo2.png";
 
 const image4 = require('../image/Admixture.jpeg');
-const image5 = require('../image/ACC BLOCK.png');
-const image6 = require('../image/Jointing morter.png');
+const image5 = require('../image/ACC BLOCK.jpeg');
+const image6 = require('../image/Jointing morter.jpeg');
 function Main() {
     return (
         <>
@@ -17,7 +18,7 @@ function Main() {
                         <h2 className='d-flex align-items-center'>Ready to <h1 style={{ color: "#005477" }} className=' fw-bold mx-2'>MIX</h1>&</h2>
                         <h2 className='d-flex align-items-center'>Ready to <h1 style={{ color: "#005477" }} className=' fw-bold mx-2'>CONQUER!</h1></h2>
                     </div>
-                    <p>Building a foundation for the future while honoring the heritage of those who came before us to build a world that balances progress and harmony.</p>
+                    <p className='fs-4 '>Building a foundation on for the future while honoring the values of today. Our vision is to build a world that balances progress and heritage.</p>
                     <div className='d-flex justify-content-left'>
                         <a href="#know-more" className="custom-button m-1">KNOW MORE <span>&gt;</span></a>
                         <a href="#download-brochure" className="custom-button m-1">DOWNLOAD BROCHURE<span>&#9662;</span></a>
@@ -84,45 +85,43 @@ function Main() {
                     </div>
                 </div>
             </section>
-            <section className="divisions">  <h2 className='text-start'>Our
-                <h1 style={{ color: "#005477" }}>DIVISIONS </h1></h2>
+            <section className="divisions">
+                <h2 className='text-start'>
+                    OUR
+                    <br/>
+                    <h1 style={{ color: "#005477", display: 'inline' }}> DIVISIONS </h1>
+                </h2>
                 <br />
                 <br />
-                <div className="  division-list">
-                    <div style={{
-                        backgroundImage: `url(${image4})`,
-                        width: '300px',
-                        height: '450px',
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center'
-                    }} className="division ">
-                        <div className="division-content text-start ps-4">
+                <div className="division-list">
+                    <div className="division" style={{ backgroundImage: `url(${image4})` }}>
+                        <div className="division-content text-start">
                             <h3>ADMIXTURE</h3>
-                            <button className="learn-more-btn">Learn More</button>
+                            <a className="learn-more-btn" href="#">
+                                Learn More<span>&gt;</span>
+                            </a>
                         </div>
                     </div>
-                    <div style={{
-                        backgroundImage: `url(${image5})`,
-                        width: '300px',
-                        height: '450px',
-                        backgroundSize: '300px 450px',
-                        backgroundPosition: 'center'
-                    }} className="division ">
-                        <div className="division-content text-start ps-4">
-                            <h3>ACC BLOCK</h3>
-                            <button className="learn-more-btn">Learn More</button>
+                    <div className="division" style={{ backgroundImage: `url(${image5})` }}>
+                        <div className="division-content text-start">
+                            <h3>AAC BLOCKS</h3>
+                            <a className="learn-more-btn" href="#">
+                                Learn More<span>&gt;</span>
+                            </a>
                         </div>
                     </div>
-                    <div style={{ backgroundImage: `url(${image6})`,
-                        width: '300px',
-                        height: '450px',
-                        backgroundSize: '300px 450px',
-                        backgroundPosition: 'center' }} className="division ">
-                        <div className="division-content text-start ps-4">
+                    <div className="division" style={{ backgroundImage: `url(${image6})` }}>
+                        <div className="division-content text-start">
                             <h3>JOINTING MORTAR</h3>
-                            <button className="learn-more-btn">Learn More</button>
+                            <a className="learn-more-btn" href="#">
+                                Learn More<span>&gt;</span>
+                            </a>
                         </div>
                     </div>
+                </div>
+                <div className="pagination">
+                    <div className="pagination-dot active"></div>
+                    <div className="pagination-dot"></div>
                 </div>
             </section>
             <section className="clients">
@@ -130,10 +129,12 @@ function Main() {
                 <br />
                 <div className="client-list">
                     <div className="client  d-flex justify-content-center">
-                        <img src={logo1} alt="Client Logo" />
+                        <img className='img1' src={logo1} alt="Client Logo" />
 
                     </div>
+                    <img className='img2' src={logo2} alt='shadow' />
                 </div>
+               
             </section>
         </>
     );
