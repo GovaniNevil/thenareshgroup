@@ -83,9 +83,15 @@
   font-size: 14px;
 }
 
+<<<<<<< HEAD
 .logo1 img {
   margin-top: -10px;
   max-width: 200px;
+=======
+.logo img {
+  margin-top: -13px;
+  max-width: 150px;
+>>>>>>> parent of cf92f38 (main)
 }
 
 @media (max-width: 1024px) {

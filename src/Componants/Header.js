@@ -42,7 +42,11 @@ const Header = () => {
                         <div className={`collapse navbar-collapse ${isNavActive ? 'active' : ''}`} id="navbarNav">
                             <ul className="navbar-nav ml-auto d-flex align-items-center">
                                 <li className="nav-item">
+<<<<<<< HEAD
                                     <a className="nav-link custom-icon" href="#home">HOME</a>
+=======
+                                    <a className="nav-link custom-icon " href="#home">HOME</a>
+>>>>>>> parent of cf92f38 (main)
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link custom-icon" href="#about">ABOUT US</a>
@@ -57,7 +61,11 @@ const Header = () => {
                                     <a className="nav-link custom-icon" href="#quality">QUALITY</a>
                                 </li>
                                 <li className="nav-item">
+<<<<<<< HEAD
                                     <a className="nav-link custom-icon contact-us" href="#contact">CONTACT US</a>
+=======
+                                    <a className="nav-link custom-icon" href="#contact">CONTACT US</a>
+>>>>>>> parent of cf92f38 (main)
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link custom-icon" href="#search"><FaSearch /></a>

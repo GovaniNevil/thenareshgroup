@@ -3,6 +3,7 @@ import './Main.css';
 import image1 from "../image/image 1.png";
 import image2 from "../image/image 2.png";
 import image3 from "../image/image 3.png";
+<<<<<<< HEAD
 import logo2 from "../image/logo2.png";
 import img1 from "../image/asianpaints.jpg";
 import img2 from "../image/hdfc Life.jpg";
@@ -10,10 +11,13 @@ import img3 from "../image/tata wiron.jpg";
 import img4 from "../image/ultraTech.jpg";
 import img5 from "../image/marico.jpg";
 import img6 from "../image/glenmark.jpg"
+=======
+import logo1 from "../image/logo1.jpeg";
+>>>>>>> parent of cf92f38 (main)
 
 const image4 = require('../image/Admixture.jpeg');
-const image5 = require('../image/ACC BLOCK.jpeg');
-const image6 = require('../image/Jointing morter.jpeg');
+const image5 = require('../image/ACC BLOCK.png');
+const image6 = require('../image/Jointing morter.png');
 function Main() {
     return (
         <>
@@ -23,6 +27,7 @@ function Main() {
                         <h2 className='d-flex align-items-center'>Ready to <h1 style={{ color: "#005477" }} className=' fw-bold mx-2'>MIX</h1>&</h2>
                         <h2 className='d-flex align-items-center'>Ready to <h1 style={{ color: "#005477" }} className=' fw-bold mx-2'>CONQUER!</h1></h2>
                     </div>
+<<<<<<< HEAD
                     <p className=''>Building a foundation on for the future while honoring the values of today. Our vision is to build a world that balances progress and heritage.</p>
                     <div style={{ gap: "10px" }} className='d-flex justify-content-left'>
                         <div className='d-flex'>
@@ -33,6 +38,12 @@ function Main() {
                             <a href="#download-brochure" className="custom-button button2 m-1">DO0WNLOAD BROCHURE</a>
                             <span className='spancustom'>&#9660;</span>
                         </div>
+=======
+                    <p>Building a foundation for the future while honoring the heritage of those who came before us to build a world that balances progress and harmony.</p>
+                    <div className='d-flex justify-content-left'>
+                        <a href="#know-more" className="custom-button m-1">KNOW MORE <span>&gt;</span></a>
+                        <a href="#download-brochure" className="custom-button m-1">DOWNLOAD BROCHURE<span>&#9662;</span></a>
+>>>>>>> parent of cf92f38 (main)
                     </div>
                 </div>
                 <div className="hero-image mt-3 mt-md-0 ">
@@ -100,6 +111,7 @@ function Main() {
                     </div>
                 </div>
             </section>
+<<<<<<< HEAD
             <section className="divisions">
                 <h2 className='text-start'>
                     OUR
@@ -181,11 +193,53 @@ function Main() {
                         <label htmlFor="slide1" className="pagination-dot"></label>
                         <label htmlFor="slide2" className="pagination-dot"></label>
                     </div>
+=======
+            <section className="divisions">  <h2 className='text-start'>Our
+                <h1 style={{ color: "#005477" }}>DIVISIONS </h1></h2>
+                <br />
+                <br />
+                <div className="  division-list">
+                    <div style={{
+                        backgroundImage: `url(${image4})`,
+                        width: '300px',
+                        height: '450px',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center'
+                    }} className="division ">
+                        <div className="division-content text-start ps-4">
+                            <h3>ADMIXTURE</h3>
+                            <button className="learn-more-btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div style={{
+                        backgroundImage: `url(${image5})`,
+                        width: '300px',
+                        height: '450px',
+                        backgroundSize: '300px 450px',
+                        backgroundPosition: 'center'
+                    }} className="division ">
+                        <div className="division-content text-start ps-4">
+                            <h3>ACC BLOCK</h3>
+                            <button className="learn-more-btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div style={{ backgroundImage: `url(${image6})`,
+                        width: '300px',
+                        height: '450px',
+                        backgroundSize: '300px 450px',
+                        backgroundPosition: 'center' }} className="division ">
+                        <div className="division-content text-start ps-4">
+                            <h3>JOINTING MORTAR</h3>
+                            <button className="learn-more-btn">Learn More</button>
+                        </div>
+                    </div>
+>>>>>>> parent of cf92f38 (main)
                 </div>
             </section>
             <section className="clients">
                 <h2>Our <h1 style={{ color: "#005477" }}> Clients </h1></h2>
                 <br />
+<<<<<<< HEAD
                 <div className="container mt-5">
                     <div className="slider1">
                         <div className="slider-track">
@@ -207,6 +261,11 @@ function Main() {
                             <div className='slide1'>
                                 <img className='img1' src={img6} alt="Client Logo 6" />
                             </div>
+=======
+                <div className="client-list">
+                    <div className="client  d-flex justify-content-center">
+                        <img src={logo1} alt="Client Logo" />
+>>>>>>> parent of cf92f38 (main)
 
                             <div className='slide1'>
                                 <img className='img1' src={img1} alt="Client Logo 1" />
@@ -230,9 +289,12 @@ function Main() {
                         </div>
                     </div>
                 </div>
+<<<<<<< HEAD
 
                 <img className='img2' src={logo2} alt='shadow' />
 
+=======
+>>>>>>> parent of cf92f38 (main)
             </section>
 
         </>

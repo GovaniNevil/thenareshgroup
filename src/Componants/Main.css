@@ -1,8 +1,10 @@
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
+
 
 #hero {
   margin-left: 124px;
@@ -35,6 +37,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   transition: background-color 0.3s ease;
+<<<<<<< HEAD
   padding-left: 18px;
   width: 255px;
   color: black;
@@ -51,6 +54,9 @@ body {
   background-color: #005477;
   height: 32px;
   margin-top: 4px;
+=======
+      padding-left: 14px;
+>>>>>>> parent of cf92f38 (main)
 }
 
 .custom-button:hover {
@@ -66,6 +72,7 @@ body {
 }
 
 .hero-text p {
+<<<<<<< HEAD
   padding-bottom: 19px;
   text-align: start;
   font-family: Arial, Helvetica, sans-serif;
@@ -76,6 +83,12 @@ body {
 
 .button1 {
   width: 166px;
+=======
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+  text-align: start;
+>>>>>>> parent of cf92f38 (main)
 }
 
 .hero-text button {
@@ -188,6 +201,7 @@ body {
 }
 
 .stat-item span {
+<<<<<<< HEAD
   font-size: 75px;
   font-weight: bold;
 }
@@ -195,6 +209,15 @@ body {
 .stat-item p {
   font-size: 30px;
   text-align: center;
+=======
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.stat-item p {
+  font-size: 1.2rem;
+  color: #666;
+>>>>>>> parent of cf92f38 (main)
 }
 
 #why-choose-us {
@@ -222,7 +245,7 @@ body {
 }
 
 .reason {
-  flex: 1 1 300px;
+  flex: 1 1 300px; 
   background-color: #fff;
   text-align: center;
   padding: 16px;
@@ -263,19 +286,22 @@ body {
 .divisions h2 {
   font-size: 40px;
   margin-bottom: 20px;
+<<<<<<< HEAD
   font-family: italic;
+=======
+>>>>>>> parent of cf92f38 (main)
 }
 
 .divisions h1 {
   font-size: 80px;
   font-weight: bold;
-  font-style: italic;
 }
 
 .division-list {
   gap: 81px;
   flex-wrap: wrap;
   display: flex;
+<<<<<<< HEAD
 }
 
 .division {
@@ -289,6 +315,24 @@ body {
   align-items: flex-end;
   padding: 20px;
   transition: transform 0.3s ease;
+=======
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.division {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+  height: 450px;
+  width: 350px;
+}
+
+.division:hover {
+  transform: translateY(-10px);
+>>>>>>> parent of cf92f38 (main)
 }
 
 .division::before {
@@ -309,6 +353,7 @@ body {
 }
 
 .division-content h3 {
+<<<<<<< HEAD
   margin: 0 0 10px;
   font-size: 36px;
   font-weight: bold;
@@ -358,6 +403,25 @@ body {
 
 .pagination-dot:hover {
   background-color: #005477;
+=======
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.learn-more-btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.learn-more-btn:hover {
+  background-color: #0056b3;
+>>>>>>> parent of cf92f38 (main)
 }
 
 .slider {
@@ -448,15 +512,18 @@ input[type="radio"]:checked + .pagination + .pagination-dot {
 
 .client {
   gap: 30px;
-  padding: 26px;
+  padding: 30px;
 }
 
 .clients h2 {
   font-size: 40px;
   margin-bottom: 20px;
+<<<<<<< HEAD
   padding-top: 45px;
   font-family: italic;
   text-transform: uppercase;
+=======
+>>>>>>> parent of cf92f38 (main)
 }
 
 .clients h1 {
@@ -464,10 +531,18 @@ input[type="radio"]:checked + .pagination + .pagination-dot {
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 .img2 {
   width: 1438px;
   height: 106px;
 }
+=======
+.clients img {
+    height: 119px;
+}
+
+
+>>>>>>> parent of cf92f38 (main)
 
 @media (max-width: 1024px) {
   #hero {
